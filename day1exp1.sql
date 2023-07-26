@@ -5,11 +5,7 @@ CREATE TABLE tedarikciler(
 	         ulasim_tarihi DATE   
 );
 
-SELECT * FROM tedarikciler
-
-CREATE TABLE tedarikci_info as SELECT ulasim_tarihi, tedarikci_ismi FROM tedarikciler;
-
-SELECT * FROM tedarikci_info
+CREATE TABLE tedarikci_ismi as SELECT ulasim_tarihi, tedarikci_ismi FROM tedarikciler;
 
 INSERT INTO tedarikciler VALUES ('12345', 'Yunus Emre', 'TRT Mh. Istanbul/Turkiye', '2023-7-25');
 INSERT INTO tedarikciler VALUES ('12346', 'Taptuk Emre', 'TRT TV Mh. Istanbul/Turkiye', '2023-7-26');

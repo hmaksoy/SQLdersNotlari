@@ -11,7 +11,8 @@ CREATE TABLE stdents(
 	
        student_id INT UNIQUE,
 	   student_name VARCHAR(50) NOT NULL,
-	   age INT CHECK (age>18)
+	   age INT CHECK (age>18),
+	   department VARCHAR(50)
 );
 
 SELECT * FROM stdents;
