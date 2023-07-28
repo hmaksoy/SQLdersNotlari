@@ -1,0 +1,6 @@
+--4.Soru: Bir "Customers" tablosu düşünelim. Bu tabloda müşterilere ait bilgiler bulunmaktadır. Tabloda aşağıdaki alanlar yer almaktadır:
+--customer_id (müşteri numarası)
+--customer_name (müşteri adı)
+--city (şehir)
+--Bu tablodan belirli bir şehirdeki müşterilerin, bu şehirdeki diğer müşterilerin sayısını içeren bir rapor elde etmek için bir SQL sorgusu yazın. 
+--Subquery (alt sorgu) kullanarak belirli bir şehirdeki müşterilerin sayısını bulun.
